@@ -1,0 +1,397 @@
+[04-Apr-2021 01:48:29 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/helpers/functions.php on line 19
+[04-Apr-2021 01:48:29 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/desco633/public_html/portal/helpers/functions.php:19) in /home4/desco633/public_html/portal/helpers/functions.php on line 35
+[04-Apr-2021 01:48:48 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/helpers/functions.php on line 19
+[04-Apr-2021 01:48:48 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/desco633/public_html/portal/helpers/functions.php:19) in /home4/desco633/public_html/portal/helpers/functions.php on line 35
+[04-Apr-2021 02:08:51 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/helpers/functions.php on line 19
+[04-Apr-2021 02:08:51 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/desco633/public_html/portal/helpers/functions.php:19) in /home4/desco633/public_html/portal/helpers/functions.php on line 35
+[04-Apr-2021 11:11:44 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/helpers/functions.php on line 19
+[04-Apr-2021 11:11:44 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/desco633/public_html/portal/helpers/functions.php:19) in /home4/desco633/public_html/portal/helpers/functions.php on line 35
+[04-Apr-2021 11:24:33 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/helpers/functions.php on line 19
+[04-Apr-2021 11:24:33 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/desco633/public_html/portal/helpers/functions.php:19) in /home4/desco633/public_html/portal/helpers/functions.php on line 35
+[04-Apr-2021 11:29:25 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/helpers/functions.php on line 16
+[04-Apr-2021 11:29:25 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\redirect() in /home4/desco633/public_html/portal/Controllers/HomeController.php:21
+Stack trace:
+#0 /home4/desco633/public_html/portal/Core/Core.php(51): Controllers\HomeController->__construct()
+#1 /home4/desco633/public_html/portal/index.php(13): Core\Core->run()
+#2 {main}
+  thrown in /home4/desco633/public_html/portal/Controllers/HomeController.php on line 21
+[04-Apr-2021 11:32:51 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/helpers/functions.php on line 16
+[04-Apr-2021 11:32:51 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/desco633/public_html/portal/helpers/functions.php:16) in /home4/desco633/public_html/portal/Controllers/HomeController.php on line 21
+[04-Apr-2021 11:32:51 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/desco633/public_html/portal/helpers/functions.php:16) in /home4/desco633/public_html/portal/helpers/functions.php on line 32
+[04-Apr-2021 11:33:29 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/helpers/functions.php on line 16
+[04-Apr-2021 11:33:29 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/desco633/public_html/portal/helpers/functions.php:16) in /home4/desco633/public_html/portal/Controllers/HomeController.php on line 21
+[04-Apr-2021 11:34:56 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/portal/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/portal/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/portal/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/portal/Controllers/LoginController.php on line 32
+[04-Apr-2021 11:34:56 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[04-Apr-2021 11:38:25 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[04-Apr-2021 11:38:31 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[04-Apr-2021 11:39:07 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[04-Apr-2021 11:41:24 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[04-Apr-2021 21:32:16 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/portal/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/portal/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/portal/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/portal/Controllers/LoginController.php on line 32
+[04-Apr-2021 21:32:16 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[05-Apr-2021 02:36:55 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/portal/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/portal/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/portal/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/portal/Controllers/LoginController.php on line 32
+[05-Apr-2021 02:36:55 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[05-Apr-2021 02:37:00 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[05-Apr-2021 20:41:51 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/portal/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/portal/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/portal/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/portal/Controllers/LoginController.php on line 32
+[05-Apr-2021 20:41:51 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[05-Apr-2021 20:41:57 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[07-Apr-2021 12:22:59 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/portal/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/portal/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/portal/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/portal/Controllers/LoginController.php on line 32
+[07-Apr-2021 12:22:59 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[07-Apr-2021 12:24:08 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[07-Apr-2021 12:24:11 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[07-Apr-2021 12:24:30 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[07-Apr-2021 21:52:01 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/portal/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/portal/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/portal/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/portal/Controllers/LoginController.php on line 32
+[07-Apr-2021 21:52:02 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[07-Apr-2021 21:52:02 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[07-Apr-2021 21:52:02 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[07-Apr-2021 21:54:13 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[07-Apr-2021 21:54:13 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[07-Apr-2021 21:54:13 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[07-Apr-2021 21:58:19 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[07-Apr-2021 21:58:19 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[07-Apr-2021 21:58:19 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[07-Apr-2021 21:59:27 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[07-Apr-2021 21:59:27 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[07-Apr-2021 21:59:27 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[07-Apr-2021 22:01:37 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[07-Apr-2021 22:01:37 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[07-Apr-2021 22:01:37 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[07-Apr-2021 22:05:44 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[07-Apr-2021 22:05:44 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[07-Apr-2021 22:05:44 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[07-Apr-2021 22:48:57 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/portal/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/portal/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/portal/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/portal/Controllers/LoginController.php on line 32
+[07-Apr-2021 22:48:57 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[07-Apr-2021 22:48:57 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[07-Apr-2021 22:48:57 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[07-Apr-2021 22:49:36 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[07-Apr-2021 22:49:36 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[07-Apr-2021 22:49:36 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[07-Apr-2021 22:50:17 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[07-Apr-2021 22:50:17 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[07-Apr-2021 22:50:17 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[10-Apr-2021 21:57:54 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/portal/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/portal/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/portal/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/portal/Controllers/LoginController.php on line 32
+[10-Apr-2021 21:57:54 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[10-Apr-2021 21:57:54 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[10-Apr-2021 21:57:54 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[11-Apr-2021 01:12:32 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/portal/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/portal/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/portal/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/portal/Controllers/LoginController.php on line 32
+[11-Apr-2021 01:12:33 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[11-Apr-2021 01:12:33 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[11-Apr-2021 01:12:33 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[11-Apr-2021 01:14:32 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/pedido/pedido_finalizado.php on line 33
+[11-Apr-2021 01:14:37 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/pedido/pedido_finalizado.php on line 33
+[11-Apr-2021 01:15:06 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/pedido/pedido_finalizado.php on line 33
+[11-Apr-2021 01:15:08 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/pedido/pedido_finalizado.php on line 33
+[11-Apr-2021 01:15:11 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/pedido/pedido_finalizado.php on line 33
+[11-Apr-2021 01:15:12 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[11-Apr-2021 01:15:12 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[11-Apr-2021 01:15:12 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[11-Apr-2021 01:15:13 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[11-Apr-2021 01:15:13 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[11-Apr-2021 01:15:13 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[11-Apr-2021 01:16:11 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/desco633/public_html/portal/helpers/messages.php:28) in /home4/desco633/public_html/portal/helpers/functions.php on line 32
+[11-Apr-2021 01:16:57 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/desco633/public_html/portal/helpers/messages.php:28) in /home4/desco633/public_html/portal/helpers/functions.php on line 32
+[11-Apr-2021 01:19:13 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/pedido/pedido_finalizado.php on line 33
+[11-Apr-2021 01:19:27 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[11-Apr-2021 01:19:27 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[11-Apr-2021 01:19:27 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[11-Apr-2021 01:19:55 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[11-Apr-2021 01:19:55 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[11-Apr-2021 01:19:55 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[11-Apr-2021 01:20:22 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[11-Apr-2021 01:20:22 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[11-Apr-2021 01:20:22 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[11-Apr-2021 10:40:22 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/portal/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/portal/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/portal/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/portal/Controllers/LoginController.php on line 32
+[11-Apr-2021 10:40:23 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[11-Apr-2021 10:40:23 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[11-Apr-2021 10:40:23 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[11-Apr-2021 10:43:28 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[11-Apr-2021 10:43:28 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[11-Apr-2021 10:43:28 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[11-Apr-2021 10:43:34 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[11-Apr-2021 10:43:34 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[11-Apr-2021 10:43:34 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[11-Apr-2021 15:05:37 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/portal/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/portal/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/portal/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/portal/Controllers/LoginController.php on line 32
+[11-Apr-2021 15:05:37 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[11-Apr-2021 15:05:37 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[11-Apr-2021 15:05:37 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[11-Apr-2021 15:07:26 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/desco633/public_html/portal/helpers/messages.php:28) in /home4/desco633/public_html/portal/helpers/functions.php on line 32
+[11-Apr-2021 15:07:56 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/desco633/public_html/portal/helpers/messages.php:28) in /home4/desco633/public_html/portal/helpers/functions.php on line 32
+[11-Apr-2021 15:08:16 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[11-Apr-2021 15:08:16 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[11-Apr-2021 15:08:16 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[11-Apr-2021 15:08:26 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[11-Apr-2021 15:08:26 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[11-Apr-2021 15:08:26 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[11-Apr-2021 15:09:19 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[11-Apr-2021 15:09:19 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[11-Apr-2021 15:09:19 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[11-Apr-2021 15:10:07 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[11-Apr-2021 15:10:07 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[11-Apr-2021 15:10:07 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[14-Apr-2021 14:22:05 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/portal/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/portal/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/portal/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/portal/Controllers/LoginController.php on line 32
+[14-Apr-2021 14:22:05 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[14-Apr-2021 14:22:05 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[14-Apr-2021 14:22:05 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[14-Apr-2021 14:22:17 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 95
+[14-Apr-2021 14:22:17 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[14-Apr-2021 14:22:17 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[14-Apr-2021 14:26:39 America/Fortaleza] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home4/desco633/public_html/portal/views/home/home.php on line 316
+[14-Apr-2021 14:27:09 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 150
+[14-Apr-2021 14:27:09 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/home/home.php on line 205
+[14-Apr-2021 14:28:48 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/desco633/public_html/portal/helpers/messages.php:28) in /home4/desco633/public_html/portal/helpers/functions.php on line 32
+[14-Apr-2021 14:43:39 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/portal/views/pedido/pedido_finalizado.php on line 30
+[14-Apr-2021 14:46:01 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function f_error() in /home4/desco633/public_html/portal/views/login/login.php:27
+Stack trace:
+#0 /home4/desco633/public_html/portal/Core/Controller.php(42): require()
+#1 /home4/desco633/public_html/portal/Controllers/LoginController.php(18): Core\Controller->loadView('login/login', Array)
+#2 [internal function]: Controllers\LoginController->index()
+#3 /home4/desco633/public_html/portal/Core/Core.php(53): call_user_func_array(Array, Array)
+#4 /home4/desco633/public_html/portal/index.php(13): Core\Core->run()
+#5 {main}
+  thrown in /home4/desco633/public_html/portal/views/login/login.php on line 27
+[14-Apr-2021 14:58:09 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/owner/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/owner/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/LoginController.php on line 32
+[14-Apr-2021 15:01:52 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'Models\Users' not found in /home4/desco633/public_html/owner/Controllers/LoginController.php:29
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/owner/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/LoginController.php on line 29
+[14-Apr-2021 15:02:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'Models\Users' not found in /home4/desco633/public_html/owner/Controllers/LoginController.php:29
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/owner/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/LoginController.php on line 29
+[14-Apr-2021 15:03:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'Models\Users' not found in /home4/desco633/public_html/owner/Controllers/LoginController.php:29
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/owner/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/LoginController.php on line 29
+[14-Apr-2021 15:03:44 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'Models\Users' not found in /home4/desco633/public_html/owner/Controllers/LoginController.php:29
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/owner/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/LoginController.php on line 29
+[14-Apr-2021 15:03:53 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'Models\Users' not found in /home4/desco633/public_html/owner/Controllers/LoginController.php:29
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/owner/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/LoginController.php on line 29
+[14-Apr-2021 15:04:45 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'Models\Users' not found in /home4/desco633/public_html/owner/Controllers/LoginController.php:29
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/owner/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/LoginController.php on line 29
+[14-Apr-2021 15:04:52 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'Models\Users' not found in /home4/desco633/public_html/owner/Controllers/HomeController.php:17
+Stack trace:
+#0 /home4/desco633/public_html/owner/Core/Core.php(51): Controllers\HomeController->__construct()
+#1 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#2 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/HomeController.php on line 17
+[14-Apr-2021 17:29:16 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/owner/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/owner/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/LoginController.php on line 32
+[14-Apr-2021 17:29:23 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/owner/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/owner/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/LoginController.php on line 32
+[14-Apr-2021 17:31:07 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/owner/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/owner/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/LoginController.php on line 32
+[14-Apr-2021 17:31:18 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/owner/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/owner/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/LoginController.php on line 32
+[14-Apr-2021 17:35:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Store::getData() in /home4/desco633/public_html/owner/Controllers/MenuController.php:42
+Stack trace:
+#0 [internal function]: Controllers\MenuController->index()
+#1 /home4/desco633/public_html/owner/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/MenuController.php on line 42
+[14-Apr-2021 17:45:31 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/owner/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/owner/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/LoginController.php on line 32
+[14-Apr-2021 17:46:09 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home4/desco633/public_html/owner/views/stores/details.php on line 129
+[15-Apr-2021 11:10:39 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/owner/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/owner/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/LoginController.php on line 32
+[15-Apr-2021 11:18:21 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/owner/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/owner/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/LoginController.php on line 32
+[16-Apr-2021 20:10:29 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/owner/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/owner/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/LoginController.php on line 32
+[16-Apr-2021 20:11:43 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/owner/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/owner/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/LoginController.php on line 32
+[06-May-2021 12:26:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/owner/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/owner/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/LoginController.php on line 32
+[06-May-2021 12:39:20 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/owner/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/owner/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/LoginController.php on line 32
+[08-May-2021 11:48:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/owner/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/owner/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/LoginController.php on line 32
+[11-May-2021 13:25:54 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/owner/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/owner/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/LoginController.php on line 32
+[12-May-2021 15:15:43 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/owner/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/owner/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/LoginController.php on line 32
+[13-May-2021 15:48:18 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/owner/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/owner/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/LoginController.php on line 32
+[13-May-2021 15:53:47 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Users::hora_entrada() in /home4/desco633/public_html/owner/Controllers/LoginController.php:32
+Stack trace:
+#0 [internal function]: Controllers\LoginController->signin()
+#1 /home4/desco633/public_html/owner/Core/Core.php(53): call_user_func_array(Array, Array)
+#2 /home4/desco633/public_html/owner/index.php(13): Core\Core->run()
+#3 {main}
+  thrown in /home4/desco633/public_html/owner/Controllers/LoginController.php on line 32
